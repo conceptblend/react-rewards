@@ -2,14 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex,nofollow">
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +20,48 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Rewards calculator</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        #rewards-phrase {
+            text-align: center;
+            /*opacity: 0.1;*/
+            margin-top: .5rem;
+            transition: opacity 200ms ease-out;
+        }
+        #rewards-container {
+            display: inline-block;
+            position: relative;
+        }
+        #rewards {
+            display: inline-block;;
+            padding: 0 .25rem;
+            position: relative;
+            z-index: 2;
+        }
+        #rewards-bg {
+            position: absolute;
+            display: block;
+            bottom: 0;
+            left: 0%;
+            background-color: rgba(255, 235, 59, 0.65);
+            height: 100%;
+            width: 100%;
+            top: 0;
+            z-index: 1;
+            transition: width 100ms linear;
+        }
+
+        #method {
+            margin-top: 10px;
+        }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
