@@ -78,7 +78,7 @@ class App extends React.Component {
                 </ContentRow>
                 <ContentRow>
                     <label htmlFor="amount">
-                        How much do you spend each month?
+                        How much do you spend each month? (or year!)
                     </label>
                     <form className="form" onSubmit={(e) => {
                             e.stopPropagation();
@@ -94,13 +94,13 @@ class App extends React.Component {
                                     step="1"
                                     className="form-control"
                                     id="amount"
-                                    aria-describedby="How much do you spend each month?"
+                                    aria-describedby="How much do you spend each month? (or year!)"
                                     placeholder="Enter amount..."
                                     onChange={this.changeValue}
                                 />
                             </div>
                             <small className="text-muted">
-                                Don't be too specific. An estimate will do.
+                                An estimate will do.
                             </small>
                         </div>
                     </form>
