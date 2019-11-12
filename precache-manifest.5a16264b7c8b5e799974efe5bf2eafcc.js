@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a32b8f0c23425ea6a0f7775f95c1231",
+    "revision": "20b05460c0a502f52add23045871a789",
     "url": "/react-rewards/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-rewards/static/js/2.690c4ee7.chunk.js"
   },
   {
-    "revision": "0b1e7f280d771b2d8cf4",
-    "url": "/react-rewards/static/js/main.88aef0bc.chunk.js"
+    "revision": "53b30d9c7aacad62036b",
+    "url": "/react-rewards/static/js/main.93501c21.chunk.js"
   },
   {
     "revision": "b717b69db52435cac33f",
